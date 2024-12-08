@@ -1,26 +1,26 @@
-.transactionTable {
+.transactionHistory {
     border-collapse: collapse;
     min-width: 700px;
     margin: 40px auto;
 }
 
-.transactionTable th {
+.transactionHistory th {
     background-color: var(--black-light-color);
     color: var(--white-color);
 }
 
-.transactionTable th,
-.transactionTable td {
+.transactionHistory th,
+.transactionHistory td {
     border: 2px solid var(--black-color);
     text-align: center;
     font-size: x-large;
 }
 
-.transactionTable tr:nth-child(even) {
+.transactionHistory tr:nth-child(even) {
     background-color: var(--gray-light-color);
 }
 
-.transactionTable tr td:first-child {
+.transactionHistory tr td:first-child {
     text-transform: capitalize;
     font-weight: bold;
 }
